@@ -120,7 +120,7 @@ public class Struct extends JFrame
         preview.setLocation((int) (d.getWidth()/2)-(w/8), (int) (d.getHeight()/2)-(w/8));
         preview.setOpaque(true);
         
-        previewFrame.setSize((int) d.getWidth()/4, (int) d.getHeight()/4);
+        previewFrame.setSize((int) d.getWidth()/4, (int) (d.getHeight()/4)+45);
         previewFrame.setLocation((int) (d.getWidth()/2-d.getWidth()/8), (int) (d.getHeight()/2-d.getHeight()/8));
         previewFrame.add(preview);
         
